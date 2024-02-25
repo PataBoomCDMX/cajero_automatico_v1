@@ -1,0 +1,74 @@
+#userBox{
+    display: none; /*por ser padre se le pondria un flex pero como no quiere que se vea al principio se le pone non* */
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 30px;
+
+
+
+
+}
+
+#userBoxConsulta{
+    display: none; /*por ser padre se le pondria un flex pero como no quiere que se vea al principio se le pone non* */
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 30px;
+
+
+
+
+}
+
+#userBoxDeposita{
+    display: none; /*por ser padre se le pondria un flex pero como no quiere que se vea al principio se le pone non* */
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 30px;
+
+
+
+
+}
+
+#userBoxRetira{
+    display: none; /*por ser padre se le pondria un flex pero como no quiere que se vea al principio se le pone non* */
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height: 300px;
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 30px;
+
+
+
+
+}
+#Withdraw {
+    overflow: hidden;
+}
