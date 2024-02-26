@@ -9,52 +9,55 @@
 </head>
 
 <body>
-<form id="inicioSesion">
-    <input type="text"  name="" id="inputUser" placeholder="Username" maxlength="10" oninput="this.value = this.value.toLowerCase()">
-    <input type="password" name="" id="inputPass" placeholder="Contraseña" maxlength="10">
-    <input type="submit" id="inputSubmit" value="Iniciar Sesión" >
-</form>
+    <form id="inicioSesion">
+        <input type="text" name="" id="inputUser" placeholder="Username" maxlength="10"
+            oninput="this.value = this.value.toLowerCase()">
+        <input type="password" name="" id="inputPass" placeholder="Contraseña" maxlength="10">
+        <input type="submit" id="inputSubmit" value="Iniciar Sesión">
+    </form>
 
-<div id="userBox">
-    <h1>Bienvenido <span id="box-user" class="con-right">Usuario</span></h1>
-    <button class="con-right" onclick="consulta()">Consultar Saldo </button>
-    <button class="con-right" onclick="goDeposita()">Depositar</button>
-    <button class="con-right" onclick="goRetira()">Retirar</button>
-</div>
+    <div id="userBox">
+        <h1>Bienvenido <span id="box-user" class="con-right">Usuario</span></h1>
+        <button class="con-right" onclick="consulta()">Consultar Saldo </button>
+        <button class="con-right" onclick="goDeposita()">Depositar</button>
+        <button class="con-right" onclick="goRetira()">Retirar</button>
+    </div>
 
-<div id="userBoxConsulta">
-    <h1 class="con-right">Tu saldo es de $ <span id="box-user-consulta" >Usuario</span> MXN</h1>
-    <button class="con-right" onclick="regresa()">Menú Principal </button>
-    <button class="con-right" onclick="goDeposita()">Depositar</button>
-    <button class="con-right" onclick="goRetira()">Retirar</button>
-    
-</div>
+    <div id="userBoxConsulta">
+        <h1 class="con-right">Tu saldo es de $ <span id="box-user-consulta">Usuario</span> MXN</h1>
+        <button class="con-right" onclick="regresa()">Menú Principal </button>
+        <button class="con-right" onclick="goDeposita()">Depositar</button>
+        <button class="con-right" onclick="goRetira()">Retirar</button>
 
-<div id="userBoxDeposita">
-    <h1 class="con-right" >Saldo actual: $ <span id="box-user-deposita" >Usuario</span> MXN</h1>
-    <h2 class="con-right">Teclea cuanto deseas depositar (MXN)</h2>
-    <div>
-        <input type="text"  class="con-input" id="deposit" placeholder="$ MXN" onkeypress="return enteros(event)" maxlength="3">
-        
-      </div>
-    <button class="con-right" onclick="depositar()">Depositar</button>
-    <button class="con-right" onclick="regresa()">Menú Principal </button>
-    
-</div>
+    </div>
 
-<div id="userBoxRetira">
-    <h1 class="con-right">Saldo Actual $ <span id="box-user-retira"  >Usuario</span> MXN</h1>
-    <h2 class="con-right">Teclea cuanto deseas retirar (MXN)</h2>
-    <div>
-        <input type="text" class="con-input" id="withdraw" placeholder="$ MXN" onkeypress="return enteros(event)" maxlength="3">
-        
-      </div>
-    <button class="con-right" onclick="retirar()">Retirar</button>
-    <button class="con-right" onclick="regresa()">Menú Principal </button>
-    
-</div>
+    <div id="userBoxDeposita">
+        <h1 class="con-right">Saldo actual: $ <span id="box-user-deposita">Usuario</span> MXN</h1>
+        <h2 class="con-right">Teclea cuanto deseas depositar (MXN)</h2>
+        <div>
+            <input type="text" class="con-input" id="deposit" placeholder="$ MXN" onkeypress="return enteros(event)"
+                maxlength="3">
 
-    
+        </div>
+        <button class="con-right" onclick="depositar()">Depositar</button>
+        <button class="con-right" onclick="regresa()">Menú Principal </button>
+
+    </div>
+
+    <div id="userBoxRetira">
+        <h1 class="con-right">Saldo Actual $ <span id="box-user-retira">Usuario</span> MXN</h1>
+        <h2 class="con-right">Teclea cuanto deseas retirar (MXN)</h2>
+        <div>
+            <input type="text" class="con-input" id="withdraw" placeholder="$ MXN" onkeypress="return enteros(event)"
+                maxlength="3">
+
+        </div>
+        <button class="con-right" onclick="retirar()">Retirar</button>
+        <button class="con-right" onclick="regresa()">Menú Principal </button>
+
+    </div>
+
+
     <script src="./app.js"> </script>
 </body>
 
